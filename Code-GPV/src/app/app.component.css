@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000000;
+  font-size: 24px;
+
+}
+
+navbar {
+  background-color: #1f86ec;
+  border-bottom: 2px solid #fff;
+}
+.navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
+  color: #070707;
+}
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 42px;
+  color: #32CD32;
+  font-weight: bold;
+}
+h2{
+  font-size:42px;
+  color: #483D8B;
+  font-weight: bold;
+}
+
+p {
+  font-size: 24px;
+  color: #000000
+  ;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+#cadastro-form{
+  display: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(253, 244, 244, 0.2);
+}
