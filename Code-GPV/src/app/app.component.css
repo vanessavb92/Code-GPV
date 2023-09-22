@@ -2,20 +2,19 @@
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #000000;
-  font-size: 24px;
-
+  color: #FFFFFF;
+  font-size: 20px;
 }
 
-navbar {
-  background-color: #1f86ec;
-  border-bottom: 2px solid #fff;
-}
+
+
 .navbar-brand {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: bold;
-  color: #070707;
+  color:  #000000;
+
 }
+
 .container {
   margin-top: 50px;
 }
@@ -25,23 +24,26 @@ h1 {
   color: #32CD32;
   font-weight: bold;
 }
-h2{
-  font-size:42px;
-  color: #483D8B;
+
+h2 {
+  font-size: 20px;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
 p {
   font-size: 24px;
-  color: #000000
-  ;
+  color: #000000;
+}
+.text-right {
+  text-align: right; /* Isso alinhará o texto à direita */
 }
 
 .form-control {
   margin-bottom: 10px;
 }
 
-#cadastro-form{
+#cadastro-form {
   display: none;
 }
 
@@ -49,5 +51,62 @@ p {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(253, 244, 244, 0.2);
+  box-shadow: 0 0 20px rgba(250, 248, 248, 0.2);
+}
+section {
+  padding: 100px 0;
+}
+
+#contato-form {
+  background-color: #031652;
+  padding: 20px;
+  border-radius: 0px;
+  position: relative;
+  margin: 50px auto;
+  max-width: 600px;
+  z-index: 999;
+}
+
+#contato-form .form-control {
+  margin-bottom: 10px;
+}
+
+#contato-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contato-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+nav.navbar{
+  min-height: 20px;
+  background-color:#4B0082	;
+}
+
+
+
+.nav-item {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    padding: 5px 8px;
+    font-size: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .nav-item {
+    font-size: 18px;
+  }
 }
