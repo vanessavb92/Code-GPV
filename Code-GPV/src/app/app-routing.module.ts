@@ -1,20 +1,24 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+// Se você estiver usando Angular, considere usar uma abordagem Angular para manipular o DOM em vez de manipular diretamente com JavaScript puro.
+// Você pode criar um componente e usar diretivas ngIf/ngHide para mostrar/ocultar elementos.
 
-const routes: Routes = [];
+// Angular Example:
+// No seu componente:
+// import { Component } from '@angular/core';
+//
+// @Component({
+//   selector: 'app-seu-componente',
+//   templateUrl: './seu-componente.component.html',
+//   styleUrls: ['./seu-componente.component.css']
+// })
+// export class SeuComponente {
+//   exibirCadastro = false;
+//   toggleCadastro() {
+//     this.exibirCadastro = !this.exibirCadastro;
+//   }
+// }
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
-var cadastroLink = document.getElementById("contato-link");
-var cadastroForm = document.getElementById("contato-form");
-
-cadastroLink.addEventListener("click", function() {
-    if (cadastroForm.style.display === "none" || cadastroForm.style.display === "") {
-        cadastroForm.style.display = "block";
-    } else {
-        cadastroForm.style.display = "none";
-    }
-});
+// HTML:
+// <button (click)="toggleCadastro()">Mostrar/Ocultar Cadastro</button>
+// <div *ngIf="exibirCadastro">
+//   <!-- Seu formulário de cadastro aqui -->
+// </div>

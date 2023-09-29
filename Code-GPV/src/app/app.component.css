@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos Globais */
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -6,19 +6,19 @@ body {
   font-size: 20px;
 }
 
-
-
+/* Estilos para a Barra de Navegação */
 .navbar-brand {
   font-size: 20px;
   font-weight: bold;
   color:  #000000;
-
 }
 
+/* Estilos para o Contêiner Principal */
 .container {
   margin-top: 50px;
 }
 
+/* Estilos para Títulos */
 h1 {
   font-size: 42px;
   color: #32CD32;
@@ -31,36 +31,27 @@ h2 {
   font-weight: bold;
 }
 
+/* Estilos para Parágrafos */
 p {
   font-size: 24px;
   color: #000000;
 }
+
+/* Estilos para Alinhamento de Texto à Direita */
 .text-right {
-  text-align: right; /* Isso alinhará o texto à direita */
+  text-align: right;
 }
 
+/* Estilos para Campos de Formulário */
 .form-control {
   margin-bottom: 10px;
 }
 
-#cadastro-form {
-  display: none;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(250, 248, 248, 0.2);
-}
-section {
-  padding: 100px 0;
-}
-
+/* Estilos para o Formulário de Contato */
 #contato-form {
   background-color: #031652;
   padding: 20px;
-  border-radius: 0px;
+  border-radius: 0;
   position: relative;
   margin: 50px auto;
   max-width: 600px;
@@ -84,18 +75,17 @@ section {
   background-color: #0056b3;
 }
 
-
-nav.navbar{
+/* Estilos para a Barra de Navegação Responsiva */
+nav.navbar {
   min-height: 20px;
-  background-color:#4B0082	;
+  background-color: #4B0082;
 }
-
-
 
 .nav-item {
   font-size: 20px;
 }
 
+/* Estilos para Telas Pequenas (max-width: 768px) */
 @media (max-width: 768px) {
   .navbar-toggler {
     padding: 5px 8px;
