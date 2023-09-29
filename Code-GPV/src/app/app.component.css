@@ -1,53 +1,42 @@
-/* Estilos Globais */
 body {
+  background-image: url('../assets/fundo-edition.jpg'); /* URL da imagem de alta resolução */
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
-  color: #FFFFFF;
-  font-size: 20px;
+  color: #00ff15; 
+  font-size: 16px; 
 }
 
-/* Estilos para a Barra de Navegação */
-.navbar-brand {
-  font-size: 20px;
-  font-weight: bold;
-  color:  #000000;
-}
-
-/* Estilos para o Contêiner Principal */
 .container {
   margin-top: 50px;
 }
 
-/* Estilos para Títulos */
 h1 {
-  font-size: 42px;
-  color: #32CD32;
+  font-size: 46px;
+  color: #ffffff;
   font-weight: bold;
 }
 
 h2 {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ebe8e8;
   font-weight: bold;
 }
 
-/* Estilos para Parágrafos */
 p {
-  font-size: 24px;
-  color: #000000;
+  font-size: 44px;
+  font-weight: bold; 
+  color: #FF4500;
 }
 
-/* Estilos para Alinhamento de Texto à Direita */
 .text-right {
   text-align: right;
 }
 
-/* Estilos para Campos de Formulário */
 .form-control {
   margin-bottom: 10px;
 }
 
-/* Estilos para o Formulário de Contato */
 #contato-form {
   background-color: #031652;
   padding: 20px;
@@ -75,21 +64,17 @@ p {
   background-color: #0056b3;
 }
 
-/* Estilos para a Barra de Navegação Responsiva */
-nav.navbar {
-  min-height: 20px;
-  background-color: #4B0082;
-}
+
 
 .nav-item {
   font-size: 20px;
 }
 
-/* Estilos para Telas Pequenas (max-width: 768px) */
 @media (max-width: 768px) {
   .navbar-toggler {
     padding: 5px 8px;
     font-size: 20px;
+    
   }
 
   .navbar-brand {
