@@ -1,32 +1,39 @@
+/* Estilos gerais */
 body {
-  background-image: url('../assets/fundo-edition.jpg'); /* URL da imagem de alta resolução */
+  background-color: #000000; /* Cor de fundo do corpo */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: #00ff15; 
-  font-size: 16px; 
+  color: #00CED1;
+  font-size: 18px;
+  margin: 0; /* Adicionei para remover margens padrão do body */
+  padding: 0; /* Adicionei para remover padding padrão do body */
 }
 
 .container {
   margin-top: 50px;
 }
 
+/* Estilos para h1 */
 h1 {
-  font-size: 46px;
-  color: #ffffff;
+  font-size: 45px;
+  color: #ffffff; /* Cor do texto do título h1 */
   font-weight: bold;
+  margin: 0; /* Adicionei para remover margens padrão do h1 */
 }
 
+/* Estilos para h2 */
 h2 {
   font-size: 20px;
-  color: #ebe8e8;
+  color: #7FFFD4; /* Cor do texto do título h2 */
   font-weight: bold;
+  margin: 0; /* Adicionei para remover margens padrão do h2 */
 }
 
 p {
-  font-size: 44px;
-  font-weight: bold; 
-  color: #FF4500;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00CED1;
 }
 
 .text-right {
@@ -38,7 +45,7 @@ p {
 }
 
 #contato-form {
-  background-color: #031652;
+  background-color: #052c65;
   padding: 20px;
   border-radius: 0;
   position: relative;
@@ -64,23 +71,23 @@ p {
   background-color: #0056b3;
 }
 
-
-
+/* Estilos para .nav-item */
 .nav-item {
   font-size: 20px;
 }
 
 @media (max-width: 768px) {
+  /* Estilos para telas pequenas */
   .navbar-toggler {
     padding: 5px 8px;
     font-size: 20px;
-    
   }
 
   .navbar-brand {
     font-size: 20px;
   }
 
+  /* Estilos para .nav-item em telas pequenas */
   .nav-item {
     font-size: 18px;
   }
